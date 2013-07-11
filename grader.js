@@ -40,15 +40,12 @@ var assertFileExists = function(infile) {
 };
 
 var assertUrlExists = function(url) {
+    console.log(url);
     rest.get(url).on('complete', function(result) {
         if (result instanceof Error) {
-            //util.puts('Error: ' + result.message);
             console.log("%s does not exist. Exiting.", url);
             process.exit(1);
-            //console.error('Error: ' + util.format(response.message));
         } else {
-            //util.puts(result);
-            console.log('result : ' + result);
             return result;
         }
     });    
@@ -97,15 +94,20 @@ var clone = function(fn) {
 if(require.main == module) {
     program
         .option('-c, --checks <check_file>', 'Path to checks.json', clone(assertFileExists), CHECKSFILE_DEFAULT)
-        .option('-f, --file', 'Path to index.html', clone(assertFileExists), HTMLFILE_DEFAULT)
-        .option('-u, --url', 'URL path', clone(assertUrlExists), URL_DEFAULT)
+        .option('-f, --file', 'Path to index.html', clone(assertFileExists))
+        .option('-u, --url <html_url>', 'URL path', clone(assertUrlExists), URL_DEFAULT)
         .parse(process.argv);
-        
+
+    //console.log(process.argv);
+    console.log(program);
+
     var checkJson = "";
     if (program.file) {
+        console.log("file : " + program.file);
         checkJson = checkHtmlFile(program.file, program.checks);    
     }
     if (program.url) {
+        console.log("url : " + program.url);
         checkJson = checkUrl(program.url, program.checks);    
     }
     var outJson = JSON.stringify(checkJson, null, 4);
