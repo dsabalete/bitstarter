@@ -67,3 +67,6 @@
 {"ts":1373540346460,"patch":[[{"diffs":[[0,"ath'"],[-1,", clone(assertUrlExists)"],[0,")\n  "]],"start1":3078,"start2":3078,"length1":32,"length2":8}]],"length":3471,"saved":false}
 {"ts":1373540411300,"patch":[[{"diffs":[[0,") {\n"],[-1,"    console.log(\"url : \" + url);\n"],[0,"    "]],"start1":1345,"start2":1345,"length1":41,"length2":8}]],"length":3438,"saved":false}
 {"ts":1373540572243,"patch":[[{"diffs":[[0,"eExists)"],[1,", HTMLFILE_DEFAULT"],[0,")\n      "]],"start1":3000,"start2":3000,"length1":16,"length2":34}]],"length":3456,"saved":false}
+{"ts":1373540895327,"patch":[[{"diffs":[[0,"RL path'"],[1,", clone(assertUrlExists)"],[0,")\n      "]],"start1":3059,"start2":3059,"length1":16,"length2":40}]],"length":3480,"saved":false}
+{"ts":1373540912824,"patch":[[{"diffs":[[0,"lExists)"],[1,", URL_DEFAULT"],[0,")\n      "]],"start1":3083,"start2":3083,"length1":16,"length2":29}]],"length":3493,"saved":false}
+{"ts":1373540998035,"patch":[[{"diffs":[[0,"('re"],[-1,"turn"],[1,"sult : ' +"],[0," result"],[-1,"'"],[0,");\n "]],"start1":1728,"start2":1728,"length1":20,"length2":25}]],"length":3498,"saved":false}

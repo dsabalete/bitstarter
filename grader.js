@@ -48,7 +48,7 @@ var assertUrlExists = function(url) {
             //console.error('Error: ' + util.format(response.message));
         } else {
             //util.puts(result);
-            console.log('return result');
+            console.log('result : ' + result);
             return result;
         }
     });    
@@ -98,7 +98,7 @@ if(require.main == module) {
     program
         .option('-c, --checks <check_file>', 'Path to checks.json', clone(assertFileExists), CHECKSFILE_DEFAULT)
         .option('-f, --file', 'Path to index.html', clone(assertFileExists), HTMLFILE_DEFAULT)
-        .option('-u, --url', 'URL path')
+        .option('-u, --url', 'URL path', clone(assertUrlExists), URL_DEFAULT)
         .parse(process.argv);
         
     var checkJson = "";
