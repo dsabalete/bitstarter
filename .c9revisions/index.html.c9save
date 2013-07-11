@@ -4,3 +4,7 @@
 {"contributors":[],"silentsave":false,"ts":1373528922306,"patch":[[{"diffs":[[0,"\" href=\""],[1,"/"],[0,"startup_"]],"start1":163,"start2":163,"length1":16,"length2":17}]],"length":3158,"saved":false}
 {"ts":1373529081574,"patch":[[{"diffs":[[0,"ef=\""],[1,"http://d396qusza40orc.cludfront.net"],[0,"/startup"],[-1,"_"],[1,"%2F"],[0,"code"],[-1,"_"],[1,"%2F"],[0,"boot"]],"start1":167,"start2":167,"length1":22,"length2":61}]],"length":3197,"saved":false}
 {"ts":1373529151388,"patch":[[{"diffs":[[0,"40orc.cl"],[1,"o"],[0,"udfront."]],"start1":187,"start2":187,"length1":16,"length2":17}]],"length":3198,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1373536895121,"patch":[[{"diffs":[[0," <body>\n"],[1,"        <span></span>\n"],[0,"        "]],"start1":1315,"start2":1315,"length1":16,"length2":38}]],"length":3220,"saved":false}
+{"ts":1373536966334,"patch":[[{"diffs":[[0,"   <"],[-1,"span></span"],[1,"div class=\"jander\"></div"],[0,">\n  "]],"start1":1328,"start2":1328,"length1":19,"length2":32}]],"length":3233,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1373537075516,"patch":[[{"diffs":[[0,"ss=\""],[-1,"jander"],[1,"zoom"],[0,"\"></"]],"start1":1339,"start2":1339,"length1":14,"length2":12}]],"length":3231,"saved":false}
+{"ts":1373537106341,"patch":[[{"diffs":[[0,"dy>\n"],[-1,"        <div class=\"zoom\"></div>\n"],[0,"    "]],"start1":1319,"start2":1319,"length1":41,"length2":8}]],"length":3198,"saved":false}
